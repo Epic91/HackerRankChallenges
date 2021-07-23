@@ -5,3 +5,8 @@ function aVeryBigSum(ar){
         }
         return sum;
 }
+
+//in case the array gets really long:
+function aVeryBigSum(ar){
+    return ar.reduce((a, b) => a + b);
+  }
